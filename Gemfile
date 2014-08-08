@@ -46,6 +46,8 @@ gem 'detect_timezone_rails', '~> 0.0.5'
 gem 'mustache-js-rails', '~> 0.0.9'
 
 group :development, :test do
+  gem 'cucumber-rails', '~> 1.4.1'
+  gem 'database_cleaner', '~> 1.3.0'
   gem 'rspec-rails', '~> 3.0.0'
   gem 'capybara', '~> 2.4.1'
   gem 'factory_girl_rails', '~> 4.4.1'
